@@ -1,0 +1,30 @@
+// Hamburger Menu
+$(document).ready(function(){
+    $(".menu").click(function(){
+      $(".burger-1, .burger-2, .burger-3, a.menu").toggleClass("open");
+        $(".navLinks").animate({"opacity": "toggle"});
+        $(".navLinks").css("display", "flex");
+        $("body").toggleClass("hidden-overflow");
+//        $("body").css("overflow", "hidden");
+//        $(".navLinks").toggleClass("navLinks-expanded");
+    });
+});
+
+// Case Study Back to Top Button
+$(function () {
+    var header = $(".topButtonHidden");
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 400) {
+            header.removeClass('topButtonHidden').addClass("topButtonVisible");
+        } else {
+            header.removeClass("topButtonVisible").addClass('topButtonHidden');
+        }
+    });
+});
+
+// Gallery Lightbox Custom Properties
+var lightbox = $('.gallery a, .caseImage a').simpleLightbox({
+    showCounter: false,
+});

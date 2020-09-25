@@ -1,0 +1,796 @@
+@charset "UTF-8";
+/*
+ *Stylesheet by Jasper Tu
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    list-style-type: none;
+}
+
+/* Utility classes
+=============================================================== */
+
+html {
+    font-family: 'DM Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    scroll-behavior: smooth;
+    cursor: url("../img/unicornCursor-36px.png") 6 6, auto;
+}
+
+#navContainer {
+    /* text-align: left;
+    margin: 1.5rem;
+    overflow: auto;*/
+    /* background: #F2F3F8; */
+    /* background: rgba(242, 243, 248, 0.9); */
+    background: rgba(250, 250, 250, 0.9);
+    backdrop-filter: blur(5px);
+    /* box-shadow: 0px 0px 6px 2px #d3d3d3; */
+    box-shadow: 0px 0px 6px 2px #d7dbe6;
+    position: sticky;
+    /* Make it stick/fixed */
+    top: 0;
+    /* Stay on top */
+    width: 100%;
+    /* Full width */
+    transition: top 0.4s;
+    /* Transition effect when sliding down (and up) */
+    z-index: 100;
+}
+
+/* Inline Emoji Styling */
+
+.emoji {
+    width: 1.5rem;
+    position: relative;
+    top: -0.2rem;
+    margin-right: 0.2rem;
+}
+
+.avatar {
+    width: 2.5rem;
+    position: relative;
+    top: -0.4rem;
+    margin-left: -0.5rem;
+}
+
+.emojiMedium {
+    width: 2rem;
+    position: relative;
+    top: -0.3rem;
+    margin-left: 0.2rem;
+}
+
+.emojiLarge {
+    width: 3rem;
+    position: relative;
+    top: -0.5rem;
+    margin-left: 0.5rem;
+}
+
+.emojiSmall {
+    width: 1.125rem;
+    position: relative;
+    top: -0.1rem;
+    margin: 0 0.1rem 0 0.15rem;
+}
+
+/* ******************** */
+
+.gridCenterer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1140px;
+    text-align: left;
+    overflow: auto;
+}
+
+.marginTopBottom {
+    margin: 3.5rem 0 7rem 0;
+}
+
+/* .spacer {
+    margin-top: 6rem;
+} */
+
+/* Scrolling
+   ========================================================================== */
+
+::-webkit-scrollbar {
+    width: 0.8rem;
+    height: 1rem;
+    margin-top: 1rem;
+    /* background-color: #cfcfd3; */
+    background-color: #d3d6df;
+    border-radius: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0.6rem;
+    ;
+    /* background-color: rgb(141, 142, 150); */
+    /* background-color: rgb(119, 119, 119); */
+    /* background-color: #eb4242; */
+    /* background-color: #ff1900; */
+    background-color: #959eb8;
+    margin-top: 1rem;
+}
+
+/* Hover Styling
+   ========================================================================== */
+
+article {
+    transition: 0.5s ease;
+}
+
+article:hover {
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+/* Links
+   ========================================================================== */
+
+a {
+    color: #444444;
+    text-decoration: none;
+    transition: 0.4s ease;
+    cursor: url("../img/fingerPointUp-36px.png") 1 14, auto;
+}
+
+a:active {
+    color: #444444;
+}
+
+::selection {
+    background: #dfdee4;
+}
+
+/* Typography
+   ========================================================================== */
+
+.marginXS--bottom {
+    margin-bottom: 0.5rem;
+}
+
+.marginS--top {
+    margin-top: 1.5rem;
+}
+
+.marginS--bottom {
+    margin-bottom: 3rem;
+}
+
+.marginM--top {
+    margin-top: 3rem;
+}
+
+.marginParaSpace--bottom {
+    margin-bottom: 2rem;
+}
+
+.bodyType {
+    font-size: 1.375rem;
+    line-height: 2.3rem;
+    color: #8D929A;
+    font-weight: 300;
+    letter-spacing: 0.015rem;
+}
+
+.bodyTypeBold {
+    font-size: 1.375rem;
+    line-height: 2.3rem;
+    color: #6a6a6b;
+    font-weight: 700;
+}
+
+.quickStatType {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: #6a6a6b;
+    font-weight: 300;
+    letter-spacing: 0.02rem;
+}
+
+.quickStatTitleType {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: #6a6a6b;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+}
+
+/* .h2-caseStudy {
+    font-size: 2.375rem;
+    line-height: 3.3rem;
+    color: #6a6a6b;
+    font-weight: 500;
+} */
+
+/* Navigation bar 
+=============================================================== */
+
+nav {
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 0 5rem 1.5rem 5rem;
+    padding: 1.75rem 0 2rem 0;
+}
+
+.navLinks {
+    display: none;
+    list-style: none;
+}
+
+.navLinks a {
+    text-decoration: none;
+    /* color: #A5A5A5; */
+    color: rgb(162, 162, 182);
+    letter-spacing: 0.02em;
+}
+
+#active {
+    color: #444444;
+    /* font-weight: 700; */
+}
+
+.navLinks {
+    margin: 0;
+}
+
+a:hover {
+    color: rgb(162, 162, 182);
+}
+
+.navLinks a:hover {
+    color: #444444;
+}
+
+.navLogo {
+    cursor: url("../img/fingerPointUp-36px.png") 1 14, auto;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin-right: auto;
+}
+
+/* Header
+=============================================================== */
+
+.jasperHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jasperTitle {
+    font-size: 3rem;
+    /* line-height: 4.5rem; */
+    font-weight: 500;
+    /* letter-spacing: 0.01em; */
+    /* color: #444444; */
+    color: #6a6a6b;
+    margin-bottom: 0.1rem;
+}
+
+.jasperFacts {
+    font-size: 1.375rem;
+    line-height: 2.68rem;
+    letter-spacing: 0.01em;
+    color: #6a6a6b;
+}
+
+.fbLinkHeader {
+    color: #4080FF;
+    /* border-bottom: 0.125rem dotted; */
+    border-bottom: 1.25px dashed;
+}
+
+.socialHeader {
+    width: 350px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialButton {
+    width: 3.25rem;
+}
+
+.downButtonContainer {
+    margin-top: 2.5rem;
+}
+
+.downButton {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.headerDrawing {
+    width: 400px;
+    height: 400px;
+}
+
+/* Projects
+=============================================================== */
+
+.projectSingle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.projectCover {
+    width: 558px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.projectTitle {
+    /* font-size: 2rem; */
+    font-size: 2.25rem;
+    color: #6a6a6b;
+    font-weight: 500;
+    /* letter-spacing: 0.01em; */
+}
+
+.projectSubTitle {
+    font-size: 1.65rem;
+    color: #6a6a6b;
+    font-weight: 500;
+}
+
+.projectDescription {
+    /* font-size: 1.125rem; */
+    font-size: 1.25rem;
+    color: #6a6a6b;
+    letter-spacing: 0.02em;
+    line-height: 1.75rem;
+}
+
+.projectType {
+    margin: 1.5rem 0.5rem 0 0;
+    /* background-color: #e8e7ec; */
+    /* background-color: #fd9c00; */
+    /* background-color: #f7b54d; */
+    /* background-color: #4080FF; */
+    /* background-color: rgb(230, 233, 240); */
+    /* background-color: #ebecf2; */
+    background-color: white;
+    color: #959eb8;
+    /* font-size: 1.1rem; */
+    padding: 0.7rem 0.9rem 0.75rem 0.9rem;
+    border-radius: 10px;
+    display: inline-block;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    box-shadow: 0px 2px 8px 2px #e5e8f1;
+}
+
+.awardText {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #f88e8e;
+    letter-spacing: 0.01em;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.adobeIcon {
+    width: 2.5rem;
+    margin-right: 0.2rem;
+}
+
+/* Case Study Page Template
+=============================================================== */
+
+.caseStudyCover {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.aboutPhotoGallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.aboutPhoto1 {
+    height: 518px;
+}
+
+.aboutPhoto2 {
+    height: 518px;
+}
+
+/* Footer
+   ========================================================================== */
+
+footer {
+    background-color: #F2F3F8;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    padding: 4rem 0 3rem 0;
+    width: 1140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 7rem;
+    row-gap: -4rem;
+}
+
+.footerLeft {
+    margin-top: -1.5rem;
+}
+
+.footerRight {
+    align-items: center;
+}
+
+.smallText {
+    font-size: 1rem;
+    color: #6a6a6b;
+    letter-spacing: 0.02em;
+}
+
+.copyrightMargin {
+    margin-top: 2.5rem;
+}
+
+.elsewhereMargin {
+    margin-top: 3rem;
+}
+
+.button {
+    background-color: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 1rem 2.5rem;
+    border: 2px solid #6a6a6b;
+    color: #6a6a6b;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.button:hover {
+    color: white;
+    background-color: #6a6a6b;
+}
+
+.socialFooter {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.socialButtonFooter {
+    width: 2.5rem;
+}
+
+/* Back to top button
+   ========================================================================== */
+
+.topButton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    height: 4rem;
+    width: 4rem;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 .5rem #b3b3b3;
+    background-image: url(../img/redTriangleUpEmoji.png);
+    color: red;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: url("../img/upEmoji.png") 0 0, auto;
+    z-index: 50;
+}
+
+.topButtonHidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s ease;
+}
+
+.topButtonVisible {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s ease;
+}
+
+/* Small Device media query 
+=============================================================== */
+
+@media only screen and (max-width: 744px) {
+    .container {
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    .marginTopBottom {
+        margin: 0.8rem 0 4rem 0;
+    }
+    .jasperTitle {
+        /* font-size: 1.5rem; */
+        font-size: 2rem;
+    }
+    .emojiLarge {
+        /* width: 1.75rem; */
+        width: 2rem;
+        position: relative;
+        /* top: -0.2rem; */
+        top: -0.3rem;
+        margin-left: 0.4rem;
+    }
+    .jasperFacts {
+        /* font-size: 1rem; */
+        font-size: 1.15rem;
+        line-height: 2.25rem;
+    }
+    .bodyType, .bodyTypeBold {
+        font-size: 1.15rem;
+        line-height: 2rem;
+    }
+    .emoji {
+        width: 1.4rem;
+        position: relative;
+        top: -0.2rem;
+        margin-right: 0.2rem;
+    }
+    .moreDetail {
+        display: none;
+    }
+    .socialHeader {
+        width: 240px;
+        margin: 1.8rem 0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .socialButton {
+        width: 2.2rem;
+    }
+    .downButtonContainer {
+        margin-top: 2.1rem;
+    }
+    .headerDrawing {
+        display: none;
+    }
+    .projectSingle, .aboutPhotoGallery {
+        display: block;
+    }
+    .aboutPhoto1 {
+        width: 100%;
+        height: 100%;
+    }
+    .aboutPhoto2 {
+        display: none;
+    }
+    .projectCover {
+        width: 100%;
+        height: 100%;
+    }
+    .projectTitle {
+        margin-top: 0.7rem;
+        font-size: 1.5rem;
+    }
+    .projectDescription {
+        font-size: 1.125rem;
+        line-height: 1.6rem;
+    }
+    .projectType {
+        margin: 0.7rem 0.25rem 0 0;
+        font-size: 0.88rem;
+        padding: 0.6rem 0.7rem 0.63rem 0.7rem;
+        background-color: rgb(230, 233, 240);
+        box-shadow: none;
+    }
+    .awardText, .adobeIcon {
+        display: none;
+    }
+    .footerContainer {
+        display: block;
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    .madeWithLove {
+        display: none;
+    }
+    .footerLeft {
+        width: 100%;
+    }
+    .footerRight {
+        margin-top: 2.75rem;
+    }
+    .emojiMedium {
+        width: 1.5rem;
+    }
+    .socialFooter {
+        width: 240px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+    }
+    .socialButtonFooter {
+        width: 2.2rem;
+    }
+    .avatar {
+        display: none;
+    }
+}
+
+/* Medium Device media query 
+=============================================================== */
+
+@media only screen and (max-width: 1065px) and (min-width: 744px) {
+    .container {
+        width: 690px;
+    }
+    .marginTopBottom {
+        margin: 1rem 0 4rem 0;
+    }
+    .headerDrawing {
+        display: none;
+    }
+    .projectSingle, .aboutPhotoGallery {
+        display: block;
+    }
+    .aboutPhoto1 {
+        /* height: 460px; */
+        width: 100%;
+        height: 100%;
+    }
+    .aboutPhoto2 {
+        display: none;
+    }
+    .projectCover {
+        width: 100%;
+        height: 100%;
+    }
+    .projectTitle {
+        margin-top: 0.7rem;
+    }
+    .projectDescription {
+        font-size: 1.2rem;
+    }
+    .projectType {
+        margin: 0.9rem 0.5rem 0 0;
+        background-color: rgb(230, 233, 240);
+        box-shadow: none;
+    }
+    .awardText, .adobeIcon {
+        display: none;
+    }
+    .footerContainer {
+        width: 690px;
+        display: block;
+    }
+    .madeWithLove {
+        display: none;
+    }
+    .footerLeft {
+        width: 500px;
+    }
+    .footerRight {
+        margin-top: 2.75rem;
+    }
+}
+
+/* Large Device media query 
+=============================================================== */
+
+@media only screen and (max-width: 1320px) and (min-width: 1065px) {
+    .container {
+        width: 1000px;
+    }
+    .marginTopBottom {
+        margin: 2rem 0 5rem 0;
+    }
+    .headerDrawing {
+        width: 405px;
+        height: 405px;
+    }
+    .projectSingle {
+        grid-gap: 3rem;
+    }
+    .aboutPhotoGallery {
+        grid-gap: 1rem;
+    }
+    .aboutPhoto1 {
+        height: 454px;
+    }
+    .aboutPhoto2 {
+        height: 454px;
+    }
+    .projectCover {
+        width: 490px;
+        height: 316px;
+    }
+    .footerContainer {
+        width: 1000px;
+    }
+}
+
+/* Nav Adjust media query
+=============================================================== */
+
+@media only screen and (max-width: 1320px) {
+    /* Shrunk nav */
+    nav {
+        margin: 0 1.5rem 1.5rem 1.5rem;
+        justify-content: space-between;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .navLinks {
+        display: flex !important;
+        background-color: none;
+    }
+    .navLinks {
+        width: auto;
+        height: auto;
+        top: auto;
+        left: auto;
+        text-align: center;
+        position: unset;
+        background: none;
+        flex-direction: row;
+        justify-content: center;
+        opacity: 1;
+    }
+    .navLinks li {
+        margin-left: 2rem;
+        font-size: 1.25rem;
+    }
+    /* ******************** */
+}
+
+/* Extra Large Device media query
+=============================================================== */
+
+@media only screen and (min-width: 1200px) {
+    nav {
+        justify-content: space-between;
+    }
+    .navLinks {
+        display: flex !important;
+        background-color: none;
+    }
+    .navLinks {
+        width: auto;
+        height: auto;
+        top: auto;
+        left: auto;
+        text-align: center;
+        position: unset;
+        background: none;
+        flex-direction: row;
+        justify-content: center;
+        opacity: 1;
+    }
+    .navLinks li {
+        margin-left: 2rem;
+        font-size: 1.25rem;
+    }
+}
