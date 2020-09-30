@@ -1,3 +1,18 @@
+/*global jQuery */
+/*!
+* Lettering.JS 0.7.0
+*
+* Copyright 2010, Dave Rupert http://daverupert.com
+* Released under the WTFPL license
+* http://sam.zoy.org/wtfpl/
+*
+* Thanks to Paul Irish - http://paulirish.com - for the feedback.
+*
+* Date: Mon Sep 20 17:14:00 2010 -0600
+*/
+
+
+
 // Hamburger Menu
 $(document).ready(function(){
     $(".menu").click(function(){
@@ -9,6 +24,7 @@ $(document).ready(function(){
 //        $(".navLinks").toggleClass("navLinks-expanded");
     });
 });
+
 
 // Case Study Back to Top Button
 $(function () {
@@ -24,7 +40,15 @@ $(function () {
     });
 });
 
+
+//Lightbox JQuery Wrap
+(function ($, window, document, undefined) {
+    'use strict';
+    $.fn.simpleLightbox = function (options) {
+        return new SimpleLightbox(this.get(), options);
+    }
+})(jQuery, window, document);
 // Gallery Lightbox Custom Properties
 var lightbox = $('.gallery a, .caseImage a').simpleLightbox({
-    showCounter: false,
+    showCounter: false
 });
