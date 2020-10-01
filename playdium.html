@@ -69,7 +69,7 @@
   <div class="gridCenterer marginTopBottom">
     <div class="container">
 
-      <header class="jasperHeader">
+      <header class="jasperHeader reveal">
         <!-- Right side of header (text) -->
         <div class="headerRight">
           <div class="headerTitleButton">
@@ -213,6 +213,14 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <!--Scroll reveal JS-->
+  <script src="./js/scrollreveal.min.js.download"></script>
+  <script>
+    // JavaScript
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.reveal', { duration: 1500, distance: '20px', useDelay: 'once', scale: 1, });
+  </script>
 </body>
 
 </html>

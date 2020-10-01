@@ -69,7 +69,7 @@
   <div class="gridCenterer">
     <div class="container">
 
-      <header class="jasperHeader marginTopBottom">
+      <header class="jasperHeader marginTopBottom reveal">
         <!-- Right side of header (text) -->
         <div class="headerRight">
           <h1 class="jasperTitle">
@@ -128,7 +128,7 @@
         <article>
           <a class="projectSingle" href="fbintern.html">
             <img class="projectCover" src="./img/home-cover-FB.jpg" loading="lazy" alt="Historia">
-            <div>
+            <div class="reveal">
               <h2 class="projectTitle">Facebook Internship</h2>
               <p class="projectDescription">Fostering more clarity for branded content creators &
                 <span class="moreDetail">potential</span> partners.</p>
@@ -147,7 +147,7 @@
         <article>
           <a class="projectSingle" href="https://www.behance.net/gallery/93816461/Historia" target="_blank">
             <img class="projectCover" src="./img/home-cover-Historia.jpg" loading="lazy" alt="Historia">
-            <div>
+            <div class="reveal">
               <h2 class="projectTitle">Historia</h2>
               <p class="projectDescription">Empowering high school students to efficiently conduct history research.</p>
               <!-- <p class="awardText">
@@ -165,7 +165,7 @@
         <article>
           <a class="projectSingle" href="playdium.html">
             <img class="projectCover" src="./img/home-cover-Playdium.jpg" loading="lazy" alt="Historia">
-            <div>
+            <div class="reveal">
               <h2 class="projectTitle">Playdium</h2>
               <p class="projectDescription">Connecting kids with an educational
                 game while physically distanced.</p>
@@ -176,29 +176,29 @@
           </a>
         </article>
 
-        <!--Canada's Languages-->
-        <article>
-          <a class="projectSingle" href="canadaLanguages.html">
-            <img class="projectCover" src="./img/home-cover-Languages.jpg" loading="lazy" alt="Historia">
-            <div>
-              <h2 class="projectTitle">Canada's Languages</h2>
-              <p class="projectDescription">A website for tourists exploring Canada's top non-official languages.</p>
-              <span class="projectType">Data Visualization</span>
-              <span class="projectType">Web Design</span>
-            </div>
-          </a>
-        </article>
-
         <!--Spark-->
         <article>
           <a class="projectSingle" href="spark.html">
             <img class="projectCover" src="./img/home-cover-Spark.jpg" loading="lazy" alt="Historia">
-            <div>
+            <div class="reveal">
               <h2 class="projectTitle">Spark</h2>
               <p class="projectDescription">A conference connecting creative pros to mentors, opportunities, and
                 resources.</p>
               <span class="projectType">Front-End Code</span>
               <span class="projectType">Product Design</span>
+            </div>
+          </a>
+        </article>
+
+        <!--Canada's Languages-->
+        <article>
+          <a class="projectSingle" href="canadaLanguages.html">
+            <img class="projectCover" src="./img/home-cover-Languages.jpg" loading="lazy" alt="Historia">
+            <div class="reveal">
+              <h2 class="projectTitle">Canada's Languages</h2>
+              <p class="projectDescription">A website for tourists exploring Canada's top non-official languages.</p>
+              <span class="projectType">Data Visualization</span>
+              <span class="projectType">Web Design</span>
             </div>
           </a>
         </article>
@@ -283,6 +283,14 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <!--Scroll reveal JS-->
+  <script src="./js/scrollreveal.min.js.download"></script>
+  <script>
+    // JavaScript
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.reveal', { duration: 1500, distance: '20px', useDelay: 'once', scale: 1, });
+  </script>
 </body>
 
 </html>

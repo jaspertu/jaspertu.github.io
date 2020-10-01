@@ -69,7 +69,7 @@
   <div class="gridCenterer marginTopBottom">
     <div class="container">
 
-      <header class="aboutPhotoGallery">
+      <header class="aboutPhotoGallery reveal">
         <!-- Right side -->
         <img class="aboutPhoto1" src="./img/0J8A0224.jpg" loading="lazy" alt="">
 
@@ -77,23 +77,23 @@
         <img class="aboutPhoto2" src="./img/0J8A0170.jpg" loading="lazy" alt="">
       </header>
 
-      <h2 class="projectTitle marginParaSpace--bottom">Hi, I’m Jasper! Product designer & early riser.</h2>
+      <h2 class="projectTitle marginParaSpace--bottom reveal">Hi, I’m Jasper! Product designer & early riser.</h2>
 
-      <p class="bodyType marginParaSpace--bottom">
+      <p class="bodyType marginParaSpace--bottom reveal">
         Previously, I worked on the Branded Content team at Facebook as a Product Design Intern.
       </p>
-      <p class="bodyType marginParaSpace--bottom">
+      <p class="bodyType marginParaSpace--bottom reveal">
         I am a product designer who has worked on design systems, influencer marketplaces, and business
         tools. In my professional career, I have always experienced a strong pull towards working in the technology
         sector due to its capacity to spark positive global change on a grand scale. From past experiences, I have felt
         most content tackling complex problem spaces collaboratively to extend human potential.
       </p>
-      <p class="bodyType marginParaSpace--bottom">
+      <p class="bodyType marginParaSpace--bottom reveal">
         My expertise at the moment lies in zero-to-one projects involving a high degree of product thinking and visual
         design. I consider it my mission to develop simple yet elegant solutions which are responsive to human needs and
         considerate of human frailties.
       </p>
-      <p class="bodyType marginS--bottom">
+      <p class="bodyType marginS--bottom reveal">
         In my spare time, I enjoy participating in hackathons, reading, fitness, and exploring places through
         photography. With empathetic design, I hope to help those less fortunate and to inspire others to pursue their
         greater dreams and ambitions.
@@ -222,6 +222,14 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <!--Scroll reveal JS-->
+  <script src="./js/scrollreveal.min.js.download"></script>
+  <script>
+    // JavaScript
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.reveal', { duration: 1500, distance: '20px', useDelay: 'once', scale: 1, });
+  </script>
 </body>
 
 </html>
