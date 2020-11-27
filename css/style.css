@@ -208,6 +208,10 @@ a:active {
     color: #6a6a6b;
     font-weight: 300;
     letter-spacing: 0.02rem;
+    width: 70%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .quickStatTitleType {
@@ -216,6 +220,18 @@ a:active {
     color: #6a6a6b;
     font-weight: 700;
     letter-spacing: 0.02rem;
+}
+
+.bodyWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.mediaCenterer {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }
 
 /* .h2-caseStudy {
@@ -676,6 +692,12 @@ footer {
     .button {
         padding: 0.5rem 2rem;
     }
+    .bodyWrapper {
+        width: 100%;
+    }
+    .quickStatType {
+        width: 100%;
+    }
 }
 
 /* Medium Device media query 
@@ -736,6 +758,12 @@ footer {
     .playdiumPrototype {
         width: 690px;
         height: 600px;
+    }
+    .bodyWrapper {
+        width: 100%;
+    }
+    .quickStatType {
+        width: 100%;
     }
 }
 
