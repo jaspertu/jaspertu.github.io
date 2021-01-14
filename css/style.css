@@ -654,6 +654,10 @@ a:hover {
     background-image: url(../img/home-cover-Spark.jpg);
 }
 
+.canadaLanguagesHero {
+    background-image: url(../img/home-cover-Languages.jpg);
+}
+
 .caseStudyDetailsBG {
     margin-top: 100vh;
     background-color: #303030;
