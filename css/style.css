@@ -191,6 +191,10 @@ a:active {
     margin-top: 4rem;
 }
 
+.marginL3--top {
+    margin-top: 6rem;
+}
+
 .marginParaSpace--bottom {
     margin-bottom: 2rem;
 }
@@ -361,6 +365,12 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+}
+
+.bodyWrapperMid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .bodyWrapperWide {
