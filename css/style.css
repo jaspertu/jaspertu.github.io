@@ -206,33 +206,33 @@ a:active {
 .title-caseStudy {
     font-family: 'Caudex', serif;
     font-weight: 700;
-    font-size: 2.625rem;
+    font-size: 3.125rem;
     color: #121212;
-    line-height: 3.5rem;
+    line-height: 3.25rem;
     margin-top: 0.75rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.45rem;
 }
 
 .subtitle-caseStudy {
-    font-size: 1.25rem;
-    line-height: 2rem;
+    font-size: 1.45rem;
+    line-height: 2.5rem;
     color: #6a6a6b;
     font-weight: 400;
 }
 
 .h2-caseStudy {
-    font-size: 2.25rem;
+    font-size: 3rem;
     font-weight: 500;
     color: #121212;
-    line-height: 2.5rem;
+    line-height: 3.25rem;
     margin-bottom: 1rem;
 }
 
 .h2-caseStudy-DM {
-    font-size: 2.25rem;
+    font-size: 3rem;
     font-weight: 500;
     color: #F0F0F0;
-    line-height: 4rem;
+    line-height: 4.75rem;
 }
 
 .h3-caseStudy {
