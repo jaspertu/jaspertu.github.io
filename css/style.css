@@ -171,6 +171,14 @@ a:active {
     margin-top: 1.5rem;
 }
 
+.marginS2--top {
+    margin-top: 1rem;
+}
+
+.marginS3--top {
+    margin-top: 2rem;
+}
+
 .marginS--bottom {
     margin-bottom: 3rem;
 }
@@ -312,6 +320,16 @@ a:active {
     color: #00b661;
     font-weight: 700;
     letter-spacing: 0.025rem;
+}
+
+.bodyTypeCaption {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #868686;
+    font-weight: 400;
+    letter-spacing: 0.015rem;
 }
 
 .caseStudyQuote {
