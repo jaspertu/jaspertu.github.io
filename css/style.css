@@ -105,25 +105,28 @@ html {
 /* Scrolling
    ========================================================================== */
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     width: 0.8rem;
     height: 1rem;
     margin-top: 1rem;
-    /* background-color: #cfcfd3; */
+    /* background-color: #cfcfd3;
     background-color: #d3d6df;
     border-radius: 0.6rem;
-}
+}*/
 
-::-webkit-scrollbar-thumb {
+/*::-webkit-scrollbar-thumb {
     border-radius: 0.6rem;
     ;
     /* background-color: rgb(141, 142, 150); */
-    /* background-color: rgb(119, 119, 119); */
-    /* background-color: #eb4242; */
-    /* background-color: #ff1900; */
+
+/* background-color: rgb(119, 119, 119); */
+
+/* background-color: #eb4242; */
+
+/* background-color: #ff1900; 
     background-color: #959eb8;
     margin-top: 1rem;
-}
+}*/
 
 /* Hover Styling
    ========================================================================== */
