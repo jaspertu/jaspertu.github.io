@@ -79,9 +79,9 @@
   <!-- Case study title -->
   <div class="gridCenterer">
     <header class="caseStudyHeader container reveal">
-      <h1 class="title-caseStudy">Facebook App Monetization</h1>
-      <h2 class="subtitle-caseStudy">Helping creators acquire quality deals</h2>
-      <h3 class="bodyType marginXS--top">Jasper Tu • 2 min read</h3>
+      <h1 class="title-caseStudy">Pioneering Pricing Transparency</h1>
+      <h2 class="subtitle-caseStudy">Improving Pre-Campaign Experiences with Pricing Preferences</h2>
+      <h3 class="bodyType marginXS--top">Jasper Tu • 5 min read</h3>
     </header>
   </div>
 
@@ -103,13 +103,13 @@
             <div class="caseStudyDetailsLeft">
               <h2 class="h2-caseStudy-DM">What Did I Work On?</h2>
               <p class="bodyType-DM">
-                Over the course of summer 2020, I designed a zero-to-one feature for Facebook’s Branded Content
-                products. At a high level, this project involved me scoping out a feasible solution for the summer, that
-                was still capable of bringing value to the team roadmap in the future. Also apart of this experience was
-                heavy, cross-functional collaboration which situated me to seek alignment from teammates and partners in
-                the larger org, pursue breadth and depth in design explorations, and capitalize on the opportunity to
-                prototype and test my feature with real Facebook users. Reach out to me if you want to learn more about
-                my project!
+                The Brand Collabs team is part of the Facebook App Monetization (FAM) pillar. They focus on facilitating
+                the creation of quality branded content, working at the intersection of brand-creator relationships.
+                Branded content is defined as posts made by a creator for payment by a business partner (brand), who
+                influences the content or is featured in it. A key problem creators face is experiencing a mismatch in
+                pricing expectations when negotiating a potential deal with brands. Therefore, I designed a Pricing
+                Preferences feature to improve creator transparency about pricing needs to brands, so they can be
+                matched with the right projects.
               </p>
               <h3 class="h3-caseStudy-DM marginM--top">Objective</h3>
               <p class="bodyType-DM">
@@ -132,7 +132,537 @@
       </div>
     </div>
 
-    <!-- Main content -->
+    <!-- Solution Description -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <h2 class="h2-caseStudy">Solution</h2>
+            </div>
+            <p class="bodyType marginS--top">
+              The shipped product is a lightweight feature enabling creators to input their <span
+                class="bodyTypeBold">pricing
+                preferences</span> via an
+              itemized menu in Creator Studio—a hub where creators manage their portfolios and monetize their FB / IG
+              pages. These pricing preferences are then outputted to a creator’s portfolio on Brand Collabs Manager
+              (BCM), where brands source viable creators for their branded content campaigns.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Solution CS Video + BCM Mockup -->
+      <div class="bodyWrapper marginM--top">
+        <div>
+          <video width="100%" autoplay="" loop="" muted="" playsinline="" controls>
+            <source src="video/Content Pricing-Edit-C2.mp4" type="video/mp4">
+          </video>
+          <div class="mediaCenterer marginS2--top marginS--bottom">
+            <p class="bodyTypeCaption">
+              For creators: A 'Content Pricing' module was added to Creator Studio so pricing preferences could be
+              specified
+            </p>
+          </div>
+        </div>
+        <img class="caseStudyImg" src="./img/fbIntern/Chrome – BCM – Shipped.png" loading="lazy">
+        <div class="mediaCenterer">
+          <p class="bodyTypeCaption">
+            For brands: A 'Starting Prices' section was added to Creator Portfolios in BCM (Brand Collabs Manager)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process (Divide) -->
+    <div class="caseStudySection">
+      <section class="caseStudyHMW-Section">
+        <div class="gridCenterer">
+          <div class="container">
+            <div class="bodyWrapper">
+              <div class="mediaCenterer">
+                <h3 class="h3-caseStudy">Developing Empathy for Users</h3>
+                <h2 class="h2-caseStudy">💬 Problem Definition 🗨️</h2>
+              </div>
+              <p class="bodyType">
+                Examining existing research and initiating conversations across PM, UXR, ENG, DES, revealed a lack of
+                pricing transparency between creators and brands. This causes <span class="bodyTypeBold">project
+                  mismatch</span>—creators commonly receive project offers with underwhelming compensation.
+              </p>
+              <p class="marginS3--top mediaCenterer caseStudyQuote">
+                “I’m not getting tons of offers, but the ones I get <b>don’t really gauge my interest</b>. It’s very low
+                budget [or] an exchange for something like a promo code or discount code... I’ve moved past that kind of
+                stuff.”<br>
+                <span class="caseStudyQuote-Author">—A high-profile comedy creator w/ 100k+ followers</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- HMW -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <p class="bodyType">
+                Synthesizing this problem as a HMW to define a <span class="bodyTypeBold">goal</span>, this became:
+              </p>
+              <p class="caseStudyHMW">
+                How might we empower creators to be transparent about pricing needs to brands, so they can be matched
+                with
+                the
+                right projects?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Constraints -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="twoColumn">
+            <div>
+              <h3 class="h3-caseStudy">Being Mindful of Reality</h3>
+              <h2 class="h2-caseStudy">Constraints</h2>
+              <p class="bodyType">
+                To effectively scope out a feasible pricing transparency solution for the summer, it was important to
+                fully understand the constraints my problem space was faced with.
+              </p>
+            </div>
+
+            <div>
+              <span class="bodyTypeBold">📌 Facebook has minimal pricing info to use.</span>
+              <p class="bodyType marginS2--bottom">
+                BCM (Brand Collabs
+                Manager) & Creator Studio don’t have pricing features. We lack info to develop a baseline POV on
+                offering guidance to creators.
+              </p>
+
+              <span class="bodyTypeBold">📌 Pricing branded content is a black box.</span>
+              <p class="bodyType">
+                There is an industry-wide lack of knowledge on how to price branded content because it’s such a new
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Thinking -->
+    <div class="caseStudySection">
+      <section class="caseStudyHMW-Section">
+        <div class="gridCenterer">
+          <div class="container">
+            <div class="bodyWrapper">
+              <div class="mediaCenterer">
+                <h3 class="h3-caseStudy">Zooming Out Before Zooming In</h3>
+                <h2 class="h2-caseStudy">🤔 Product Thinking 💭</h2>
+              </div>
+              <p class="bodyType">
+                To scope out my solution, I gave myself the freedom to dream big, blue-sky ideas initially—one of these
+                was a <span class="bodyTypeBold">pricing model</span>. I envisioned a tiered ecosystem for branded
+                content creators.
+                Small or new creators
+                complete Tier 1 projects to level up an Aggregate Score, based on factors like engagement, follower
+                count,
+                impressions to name a few. Once the score is high enough, access to higher paying Tier 2 projects is
+                unlocked.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Pricing Model Images -->
+      <div class="bodyWrapperWide marginM--top">
+        <div class="twoColumn">
+          <img class="caseStudyImg" src="./img/fbIntern/pricingModel1.jpeg" loading="lazy">
+          <img class="caseStudyImg" src="./img/fbIntern/pricingModel2.png" loading="lazy">
+        </div>
+        <div class="gridCenterer">
+          <div class="container">
+            <div class="bodyWrapper">
+              <div class="mediaCenterer">
+                <p class="bodyTypeCaption">
+                  While this system-level concept couldn’t be built now due to our constraints, it established a
+                  long-term
+                  pricing vision the team would strive towards even after I was gone.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brainstorm -->
+    <div class="caseStudySection">
+      <section class="caseStudyHMW-Section">
+        <div class="gridCenterer">
+          <div class="container">
+            <div class="bodyWrapper">
+              <div class="mediaCenterer">
+                <h3 class="h3-caseStudy">Leading a Brainstorm</h3>
+                <h2 class="h2-caseStudy">💡 Moving Towards an MVP 🧠</h2>
+              </div>
+              <p class="bodyType">
+                To identify an MVP we could pursue now to work towards the tiered pricing model, I led a brainstorm
+                session with XFN partners across DES, PM, PMM, CS, UXR. To foster targeted ideation that holistically
+                considers feasibility, risk factors and weaknesses, I created a brainstorming tool on Google Sheets
+                which had participants wear 3 hats for each conceived idea: <span class="bodyTypeBold">Dreamer, Realist,
+                  and
+                  Critic</span>. After ideation
+                ended and favourite ideas were voted, 1 concept stood out which struck the ideal balance of short-term
+                feasibility and long-term roadmap value: <span class="bodyTypeBold">Pricing Preferences</span>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Brainstorm image -->
+      <div class="bodyWrapper marginM--top">
+        <img class="caseStudyImg" src="./img/fbIntern/brainstorm.png" loading="lazy">
+      </div>
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <p class="bodyTypeCaption marginS3--top">
+                Google Sheet where the brainstorm happened. Pricing Preferences received the most votes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- What's Pricing Preferences? -->
+    <div class="caseStudySection">
+      <section class="caseStudyHMW-Section">
+        <div class="gridCenterer">
+          <div class="container">
+            <div class="bodyWrapper">
+              <div class="mediaCenterer">
+                <h3 class="h3-caseStudy">The Concept + Rationale</h3>
+                <h2 class="h2-caseStudy">🤑 Why Pricing Preferences? 💸</h2>
+              </div>
+              <p class="bodyType">
+                Pricing Preferences enables creators to input their preferred minimum compensation into Creator Studio;
+                this is then shown on Creator Portfolios in BCM, where advertisers search for suitable candidates who
+                can star in upcoming branded content projects. <span class="bodyTypeBold">2 key value
+                  propositions</span> are offered by this approach:
+              </p>
+              <p class="caseStudyQuote marginS3--top"><b>For creators, facilitate accurate matching.</b> Align creators
+                with
+                the right projects at price points they desire, increasing monetization opportunities.</p>
+              <p class="caseStudyQuote marginS2--top"><b>For Facebook, develop a baseline.</b> Enable Facebook to gather
+                information
+                to form
+                a POV on how branded content value is determined.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Iterations Description -->
+      <div class="gridCenterer marginM--top">
+        <div class="container">
+          <div class="bodyWrapper">
+            <p class="bodyType">
+              With a concept, I designed an MVP prototype. I explored different interaction design patterns for creator
+              price selection like <span class="bodyTypeBold">cards, sliders, and dropdowns.</span>
+            </p>
+          </div>
+          <!-- Cards -->
+          <img class="caseStudyImg marginS--top" src="img/fbIntern/Chrome – Creator Studio – Cards.png" loading="lazy">
+          <div class="bodyWrapper">
+            <p class="bodyTypeCaption">
+              An issue with <span class="bodyTypeBold">cards</span> was the idea of adding and removing Content Types.
+              Did removing
+              a content type mean
+              the creator no longer created that medium or didn’t want to specify a price? Due to ambiguity in
+              connotation between the different states, the cards concept was scrapped.
+            </p>
+          </div>
+          <!-- Sliders -->
+          <img class="caseStudyImg marginL3--top" src="img/fbIntern/Chrome – Creator Studio – Sliders.png"
+            loading="lazy">
+          <div class="bodyWrapper">
+            <p class="bodyTypeCaption">
+              An issue with <span class="bodyTypeBold">sliders</span> was lack of granularity when the user chooses a
+              desired price—if the range is too wide, accuracy in selection is lost. It is also difficult to pinpoint
+              what an ideal end price would be, since both small and large creators need to be considered.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dropdowns -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="twoColumn">
+            <div>
+              <h3 class="h3-caseStudy">Intuitive + Simple</h3>
+              <h2 class="h2-caseStudy">Dropdowns</h2>
+              <p class="bodyType">
+                I ultimately decided on dropdowns because it had the most opportunity to create an intuitive experience.
+                Dropdowns let users <span class="bodyTypeBold">easily select various states</span> for each content type
+                (Photo,
+                Video, Stories). Being
+                able to set different preferences is key because research revealed prices tend to vary by content type
+                and not every creator makes branded content in every medium. Here are the different states:
+              </p>
+            </div>
+
+            <div>
+              <span class="bodyTypeBold">🔑 Pricing available by request [Default State]</span>
+              <p class="bodyType marginS2--bottom">
+                Brand needs to personally contact creator for pricing info; creator doesn’t wish to share pre-contact.
+              </p>
+              <span class="bodyTypeBold">🔑 Set starting price</span>
+              <p class="bodyType marginS2--bottom">
+                Lets creators set a per post pricing floor by content type.
+              </p>
+              <span class="bodyTypeBold">🔑 Content type not offered</span>
+              <p class="bodyType">
+                Creators specify to brands they don’t create branded content for a certain medium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Creator Studio PreTest -->
+    <div class="bodyWrapperWide">
+      <div class="twoColumn">
+        <img class="caseStudyImg" src="./img/fbIntern/Chrome – Creator Studio – PreTest1.png" loading="lazy">
+        <img class="caseStudyImg" src="./img/fbIntern/Chrome – Creator Studio – PreTest2.png" loading="lazy">
+      </div>
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <p class="bodyTypeCaption">
+                Content Pricing in Creator Studio (pre-user test). Left: Price selection form field.<br>Right:
+                Post-price
+                selection with ability to edit and delete entry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BCM PreTest -->
+    <div class="bodyWrapper marginL3--top">
+      <img class="caseStudyImg" src="./img/fbIntern/Chrome – BCM – PreTest.png" loading="lazy">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <p class="bodyTypeCaption">
+                Starting Prices section in BCM Creator Portfolio, based on creator input.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- User test positive insights -->
+    <div class="caseStudySection">
+      <section class="caseStudyHMW-Section">
+        <div class="gridCenterer">
+          <div class="container">
+            <div class="bodyWrapper">
+              <div class="mediaCenterer">
+                <h3 class="h3-caseStudy">Examining Feedback</h3>
+                <h2 class="h2-caseStudy">🧪 User Testing Insights 💉</h2>
+              </div>
+              <p class="bodyType">
+                Overall, creators felt positively about the Content Pricing module and saw <span
+                  class="bodyTypeBold">value</span>
+                in it as a nice
+                extension of the current experience. Many creators also enjoyed the <span
+                  class="bodyTypeBold">simplicity</span> and
+                ease of use, which
+                let them quickly understand the functionality and purpose of the feature.
+              </p>
+              <p class="caseStudyQuote marginS3--top">
+                “I like it because pricing is all over the place. It allows advertisers to <b>find creators
+                  easier</b>.” 💪<br>
+                <span class="caseStudyQuote-Author">—Creator with 1 million followers</span>
+              </p>
+              <p class="caseStudyQuote marginS2--top">
+                “It's laid out <b>beautifully</b>. Even I can do it. It makes me <b>feel like a genius</b>.” 💪
+                <br>
+                <span class="caseStudyQuote-Author">—Creator with 16k
+                  followers</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- User test callouts -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="twoColumn">
+            <div>
+              <h2 class="h2-caseStudy">Callouts 🔊</h2>
+              <p class="bodyType">
+                With that said, there were of course <span class="bodyTypeBold">improvement points</span>.
+              </p>
+            </div>
+            <div>
+              <span class="bodyTypeBold">📌 No currency selection.</span>
+              <p class="bodyType marginS2--bottom">
+                Creators had no option to select their currency of choice, to account for different regions.
+              </p>
+              <span class="bodyTypeBold">📌 Potential lowballing.</span>
+              <p class="bodyType">
+                Creators were concerned brands would anchor to the Starting Price inputted and not go higher in their
+                offers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Revisions Description -->
+    <section class="caseStudyHMW-Section">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <h3 class="h3-caseStudy">A Spirit of Continuous Improvement</h3>
+              <h2 class="h2-caseStudy">🛠️ Making Revisions 🧰</h2>
+            </div>
+            <p class="bodyType">
+              Taking the user comments into consideration, I updated the Creator Studio + BCM designs accordingly
+              and thought more carefully about the possible edge cases. Here’s what I did.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Creator Studio Updates -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="bodyWrapperWide">
+          <div class="twoColumn">
+            <img class="caseStudyImg" src="img/fbIntern/Chrome – Creator Studio – PostTest1.png" loading="lazy">
+            <img class="caseStudyImg" src="img/fbIntern/Chrome – Creator Studio – PostTest2.png" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="mediaCenterer">
+            <p class="bodyTypeCaption">
+              Creator Studio. Left: Added a currency dropdown when users input Starting Prices.<br>
+              Right: Added a '+' sign to prices in Creator Studio to show these are only starting prices, so
+              brands can go above in their offers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BCM Updates -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="bodyWrapperWide">
+          <div class="threeColumn">
+            <img class="caseStudyImg" src="img/fbIntern/Hover Currency JPY.png" loading="lazy">
+            <img class="caseStudyImg" src="img/fbIntern/Hover Currency USD.png" loading="lazy">
+            <img class="caseStudyImg" src="img/fbIntern/Hover N_A.png" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="mediaCenterer">
+            <p class="bodyTypeCaption marginS--top">
+              BCM. Added currency hover state over price value in BCM Portfolio because some currencies share the same
+              symbol (ex. CAD $ and USD $). Added '+' sign beside starting price so brands know they can go above in
+              their offers. Added hover state to N/A for clarity, specifying a creator doesn't offer branded content of
+              a certain medium.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Looking Ahead -->
+    <section class="caseStudyHMW-Section">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <h3 class="h3-caseStudy">To Infinity and Beyond</h3>
+              <h2 class="h2-caseStudy">☄️ Building a Hypothetical v2 🌟</h2>
+            </div>
+            <p class="bodyType">
+              As a budding product designer, I always try to look for opportunities to grow and exceed expectations. For
+              that reason, I took it upon myself to design a hypothetical v2 of this feature centered on offering
+              creators <span class="bodyTypeBold">Pricing Guidance</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prev -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <p class="bodyType">
+              I built a creator persona in search of finding the right project, and mapped out a user journey for her
+              using the shipped MVP. There, I found an opportunity to improve the design with Pricing Guidance once we
+              have the data to be doing that. The critical point lies in price input—what if a new creator didn’t know
+              what price to write? How might we create a system which empowers creators to choose an ideal price for
+              their content type and attributes? (engagement, following, etc.)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pre images -->
+      <div class="bodyWrapperWide">
+        <img class="caseStudyImg" src="img/fbIntern/CS Flow-2 (Fixed).png" loading="lazy">
+        <img class="caseStudyImg" src="img/fbIntern/User Journey + Empathy Map (MVP Final).png" loading="lazy">
+      </div>
+
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <p class="bodyType marginM--top marginS--bottom">
+              The new system notifies creators if they have gone over or below a recommended starting price, and also
+              updates them if a previously inputted price is outdated (ex. They have grown in following, engagement,
+              etc.)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bodyWrapperWide">
+        <img class="caseStudyImg" src="img/fbIntern/v2-New Creator (Success).png" loading="lazy">
+        <img class="caseStudyImg" src="img/fbIntern/v2-Old Creator (Warning).png" loading="lazy">
+      </div>
+    </section>
+
+    <!-- Main content (Original) -->
     <section class="caseStudySection">
       <div class="gridCenterer">
         <div class="container">
@@ -206,7 +736,7 @@
         </div>
 
         <div class="footerRight">
-          <a href="mailto:jaspertu@my.yorku.ca?subject=Design%20Inquiry" class="button">Get in touch</a>
+          <a href="mailto:jasper_tu@outlook.com?subject=Design%20Inquiry" class="button">Get in touch</a>
           <p class="smallText elsewhereMargin">Elsewhere</p>
           <div class="socialFooter">
             <a href="https://www.linkedin.com/in/jaspertu/" target="_blank">
