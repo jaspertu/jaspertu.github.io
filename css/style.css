@@ -97,7 +97,7 @@ html {
 
 .marginTopBottom {
     /* margin: 2.5rem 0 7rem 0; */
-    margin: 7rem 0 7rem 0;
+    margin: 3rem 0 2rem 0;
 }
 
 /* .spacer {
@@ -581,8 +581,8 @@ a:hover {
 }
 
 .headerDrawing {
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 40%;
 }
 
 /* Projects on Homepage
@@ -593,22 +593,25 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-gap: 3rem;
-    margin-bottom: 4rem;
-    background-color: #f8f8f8;
-    padding: 3rem;
+    margin-bottom: 3rem;
+    background-color: #ffffff;
+    padding: 1rem;
     border-radius: 10px;
 }
 
 .projectSingle:hover {
-    background-color: #ffffff;
+    background-color: #f8f8f8;
+    border-radius: 0px;
 }
 
 .projectSingle>.projectCover {
-    transition: 0.5s ease;
+    transition: 0.25s ease;
 }
 
 .projectSingle:hover>.projectCover {
-    transform: scale(1.05);
+    /*transform: rotate(0.005turn);*/
+    transform: scale(1.09);
+    border-radius: 0px;
 }
 
 .projectSingle>.sec>.projectTitle>.projectArrow {
