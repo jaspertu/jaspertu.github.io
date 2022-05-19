@@ -133,15 +133,15 @@ html {
 /* Hover Styling
    ========================================================================== */
 
-article {
+/* article { */
     /* transition: 0.5s ease; */
-}
+/* } */
 
-article:hover {
+/* article:hover { */
     /* opacity: 0.5; */
     /* transition: .5s ease; */
     /* transform: scale(0.95); */
-}
+/* } */
 
 /* Links
    ========================================================================== */
@@ -731,8 +731,8 @@ a:hover {
     background-image: url(../img/facebook-rainbow.gif);
 }
 
-.kumoAppHero {
-    background-image: url(../img/kumoApp/caseStudyCover-KumoApp.jpg);
+.jiyuAppHero {
+    background-image: url(../img/jiyu/caseStudyCover-Jiyu.jpg);
 }
 
 .playdiumHero {
