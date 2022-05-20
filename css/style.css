@@ -134,13 +134,13 @@ html {
    ========================================================================== */
 
 /* article { */
-    /* transition: 0.5s ease; */
+/* transition: 0.5s ease; */
 /* } */
 
 /* article:hover { */
-    /* opacity: 0.5; */
-    /* transition: .5s ease; */
-    /* transform: scale(0.95); */
+/* opacity: 0.5; */
+/* transition: .5s ease; */
+/* transform: scale(0.95); */
 /* } */
 
 /* Links
@@ -511,7 +511,9 @@ a:hover {
     margin-right: auto;
 }
 
-.workNav, .aboutNav, .resumeNav {
+.workNav,
+.aboutNav,
+.resumeNav {
     font-size: 1rem;
 }
 
@@ -732,7 +734,7 @@ a:hover {
 }
 
 .jiyuAppHero {
-    background-image: url(../img/jiyu/caseStudyCover-Jiyu.jpg);
+    background-image: url(../img/jiyu/caseStudyCover-Jiyu.jpeg);
 }
 
 .playdiumHero {
@@ -1011,16 +1013,20 @@ footer {
     .navLogo {
         display: none;
     }
+
     .container {
         margin: 0 1.5rem 0 1.5rem;
     }
+
     .marginTopBottom {
         margin: 1.5rem 0 4rem 0;
     }
+
     .jasperTitle {
         /* font-size: 1.5rem; */
         font-size: 2rem;
     }
+
     .emojiLarge {
         /* width: 1.75rem; */
         width: 2rem;
@@ -1029,70 +1035,90 @@ footer {
         top: -0.3rem;
         margin-left: 0.4rem;
     }
+
     .jasperFacts {
         /* font-size: 1rem; */
         font-size: 1.15rem;
         line-height: 2.25rem;
     }
-    .bodyType, .bodyTypeBold {
+
+    .bodyType,
+    .bodyTypeBold {
         font-size: 1.15rem;
         line-height: 2rem;
     }
+
     .emoji {
         width: 1.4rem;
         position: relative;
         top: -0.2rem;
         margin-right: 0.2rem;
     }
+
     .moreDetail {
         display: none;
     }
+
     .socialHeader {
         width: 240px;
         margin: 1.8rem 0 0 0;
         display: flex;
         justify-content: space-between;
     }
+
     .socialButton {
         width: 2.2rem;
     }
+
     .downButtonContainer {
         margin-top: 2.1rem;
     }
+
     .headerDrawing {
         display: none;
     }
+
     .projectSingle {
         padding: 0;
     }
+
     .projectSingle:hover {
         background-color: #f8f8f8;
     }
+
     .projectSingle:hover>.projectCover {
         transform: scale(1.0);
     }
-    .projectSingle, .aboutPhotoGallery {
+
+    .projectSingle,
+    .aboutPhotoGallery {
         display: block;
     }
+
     .aboutPhoto1 {
         width: 100%;
         height: 100%;
     }
+
     .aboutPhoto2 {
         display: none;
     }
+
     .projectCover {
         width: 100%;
         height: 100%;
     }
+
     .projectTitle {
         margin-top: 0.7rem;
         font-size: 1.5rem;
     }
+
     .projectDescription {
         font-size: 1.125rem;
         line-height: 1.6rem;
     }
+
     .projectType {
         margin: 0.7rem 0.25rem 0 0;
         font-size: 0.88rem;
@@ -1100,53 +1126,68 @@ footer {
         background-color: rgb(230, 233, 240);
         box-shadow: none;
     }
-    .awardText, .adobeIcon {
+
+    .awardText,
+    .adobeIcon {
         display: none;
     }
+
     .footerContainer {
         display: block;
         margin: 0 1.5rem 0 1.5rem;
     }
+
     .madeWithLove {
         display: none;
     }
+
     .footerLeft {
         width: 100%;
     }
+
     .footerRight {
         margin-top: 2.75rem;
     }
+
     .emojiMedium {
         width: 1.5rem;
     }
+
     .socialFooter {
         width: 200px;
         display: flex;
         justify-content: space-between;
         margin-top: 0.5rem;
     }
+
     .socialButtonFooter {
         width: 2.2rem;
     }
+
     .avatar {
         display: none;
     }
+
     .playdiumPrototype {
         width: 100%;
         height: 500px;
     }
+
     .headerTitleButton {
         display: block;
     }
+
     /** .buttonMarginTop {
         margin-top: 2.5rem;
     } **/
     .button {
         padding: 0.75rem 2rem;
     }
+
     .bodyWrapper {
         width: 100%;
     }
+
     /*.quickStatType {
         width: 100%;
     }*/
@@ -1154,30 +1195,40 @@ footer {
         display: block;
         margin-bottom: 4rem;
     }
+
     .caseStudyDetailsRight {
         margin-top: 4rem;
     }
+
     .caseStudyHeader {
         margin-bottom: 3rem;
     }
-    .twoColumn, .twoColumnAlt {
+
+    .twoColumn,
+    .twoColumnAlt {
         display: block;
     }
+
     /* .twoColumnAlt-2 {
         grid-template-columns: 1fr;
     }
     #switchOrder {
         grid-row: 1;
     } */
-    .caseStudyImg, .caseStudyQuote {
+    .caseStudyImg,
+    .caseStudyQuote {
         margin-top: 1rem;
     }
+
     .persona-item {
         padding: 0.5rem 0.25rem;
     }
-    .persona, .persona-active {
+
+    .persona,
+    .persona-active {
         padding: 0.5rem 0.5rem;
     }
+
     .threeColumn {
         display: block;
     }
@@ -1190,82 +1241,109 @@ footer {
     .container {
         width: 690px;
     }
+
     .marginTopBottom {
         margin: 1rem 0 4rem 0;
     }
+
     .headerDrawing {
         display: none;
     }
-    .projectSingle, .aboutPhotoGallery {
+
+    .projectSingle,
+    .aboutPhotoGallery {
         display: block;
     }
+
     .aboutPhoto1 {
         /* height: 460px; */
         width: 100%;
         height: 100%;
     }
+
     .aboutPhoto2 {
         display: none;
     }
+
     .projectCover {
         width: 100%;
         height: 100%;
     }
+
     .projectTitle {
         margin-top: 0.7rem;
     }
+
     .projectDescription {
         font-size: 1.2rem;
     }
+
     .projectType {
         margin: 0.9rem 0.5rem 0 0;
         background-color: rgb(230, 233, 240);
         box-shadow: none;
     }
-    .awardText, .adobeIcon {
+
+    .awardText,
+    .adobeIcon {
         display: none;
     }
+
     .footerContainer {
         width: 690px;
         display: block;
     }
+
     .madeWithLove {
         display: none;
     }
+
     .footerLeft {
         width: 500px;
     }
+
     .footerRight {
         margin-top: 2.75rem;
     }
+
     .playdiumPrototype {
         width: 690px;
         height: 600px;
     }
+
     .bodyWrapper {
         width: 100%;
     }
-    .twoColumn, .twoColumnAlt {
+
+    .twoColumn,
+    .twoColumnAlt {
         display: block;
     }
+
     /* .twoColumnAlt-2 {
         grid-template-columns: 1fr;
     }
     #switchOrder {
         grid-row: 1;
     } */
-    .caseStudyImg, .caseStudyQuote {
+    .caseStudyImg,
+    .caseStudyQuote {
         margin-top: 1rem;
     }
+
     .persona-item {
         padding: 0.5rem 0.25rem;
     }
-    .persona, .persona-active {
+
+    .persona,
+    .persona-active {
         padding: 0.5rem 0.5rem;
     }
+
     .threeColumn {
         display: block;
     }
+
     /*.quickStatType {
         width: 100%;
     }*/
@@ -1278,32 +1356,41 @@ footer {
     .container {
         width: 1000px;
     }
+
     .marginTopBottom {
         margin: 2rem 0 5rem 0;
     }
+
     .headerDrawing {
         width: 100%;
         height: 100%;
     }
+
     .projectSingle {
         grid-gap: 3rem;
     }
+
     .aboutPhotoGallery {
         grid-gap: 1rem;
     }
+
     .aboutPhoto1 {
         height: 454px;
     }
+
     .aboutPhoto2 {
         height: 454px;
     }
+
     .projectCover {
         width: 490px;
         height: 316px;
     }
+
     .footerContainer {
         width: 1000px;
     }
+
     .playdiumPrototype {
         width: 1000px;
         height: 750px;
@@ -1314,6 +1401,7 @@ footer {
 =============================================================== */
 
 @media only screen and (max-width: 1320px) {
+
     /* Shrunk nav */
     nav {
         margin: 0 1.5rem 1.5rem 1.5rem;
@@ -1321,10 +1409,12 @@ footer {
         overflow-x: hidden;
         overflow-y: hidden;
     }
+
     .navLinks {
         display: flex !important;
         background-color: none;
     }
+
     .navLinks {
         width: auto;
         height: auto;
@@ -1337,10 +1427,12 @@ footer {
         justify-content: center;
         opacity: 1;
     }
+
     .navLinks li {
         margin-left: 2rem;
         font-size: 1.25rem;
     }
+
     /* ******************** */
 }
 
@@ -1351,10 +1443,12 @@ footer {
     nav {
         justify-content: space-between;
     }
+
     .navLinks {
         display: flex !important;
         background-color: none;
     }
+
     .navLinks {
         width: auto;
         height: auto;
@@ -1367,6 +1461,7 @@ footer {
         justify-content: center;
         opacity: 1;
     }
+
     .navLinks li {
         margin-left: 2rem;
         font-size: 1.25rem;
