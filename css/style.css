@@ -20,7 +20,7 @@
 html {
     font-family: 'Sora', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     scroll-behavior: smooth;
-    cursor: url("../img/unicornCursor-36px.png") 6 6, auto;
+    /** cursor: url("../img/unicornCursor-36px.png") 6 6, auto; **/
 }
 
 #navContainer {
@@ -150,7 +150,7 @@ a {
     color: #444444;
     text-decoration: none;
     transition: 0.4s ease;
-    cursor: url("../img/fingerPointUp-36px.png") 1 14, auto;
+    /** cursor: url("../img/fingerPointUp-36px.png") 1 14, auto; **/
 }
 
 a:active {
@@ -504,7 +504,7 @@ a:hover {
 }
 
 .navLogo {
-    cursor: url("../img/fingerPointUp-36px.png") 1 14, auto;
+    /** cursor: url("../img/fingerPointUp-36px.png") 1 14, auto; **/
     font-size: 1.125rem;
     font-weight: 700;
     letter-spacing: 0.06em;
