@@ -61,10 +61,18 @@ html {
     margin-left: -0.5rem;
 }
 
+/* Navigation logo image sizing */
+.navLogoImg {
+    width: 58px;
+    height: 58px;
+    display: block;
+    object-fit: contain;
+}
+
 .emojiMedium {
-    width: 2rem;
+    width: 1.75rem;
     position: relative;
-    top: -0.3rem;
+    top: -0.1rem;
     margin-left: 0.2rem;
 }
 
@@ -209,7 +217,7 @@ a:active {
 }
 
 .marginParaSpace--bottom {
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
 }
 
 .margin1rem--bottom {
@@ -219,47 +227,46 @@ a:active {
 .title-caseStudy {
     font-family: 'Caudex', serif;
     font-weight: 700;
-    font-size: 3.125rem;
+    font-size: 2.5rem;
     color: #121212;
     line-height: 3.25rem;
     margin-top: 0.75rem;
-    margin-bottom: 0.45rem;
+    margin-bottom: 0rem;
 }
 
 .subtitle-caseStudy {
-    font-size: 1.45rem;
+    font-size: 1.25rem;
     line-height: 2.5rem;
     color: #6a6a6b;
     font-weight: 400;
 }
 
 .h2-caseStudy {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #121212;
     line-height: 3.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 .h2-caseStudy-DM {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #F0F0F0;
     line-height: 4.75rem;
 }
 
 .h3-caseStudy {
-    text-transform: uppercase;
-    font-size: 1.125rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
     line-height: 2rem;
-    letter-spacing: 0.025em;
-    color: #A0A0AA;
+    /* letter-spacing: 0.025em; */
+    color: #121212;
 }
 
 .h3-caseStudy-DM {
     text-transform: uppercase;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 2rem;
     letter-spacing: 0.025em;
@@ -282,15 +289,15 @@ a:active {
 .bodyTypeLarge-DM {
     font-family: 'Nunito', sans-serif;
     font-size: 1.375rem;
-    line-height: 2.3rem;
+    line-height: 2rem;
     color: #CECECE;
     font-weight: 600;
 }
 
 .bodyType {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.175rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: #606060;
     font-weight: 400;
     letter-spacing: 0.015rem;
@@ -298,8 +305,8 @@ a:active {
 
 .bodyType-DM {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.175rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: #CECECE;
     font-weight: 400;
     letter-spacing: 0.015rem;
@@ -307,8 +314,8 @@ a:active {
 
 .bodyTypeBold {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.175rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: #121212;
     font-weight: 700;
     letter-spacing: 0.025rem;
@@ -327,8 +334,8 @@ a:active {
 
 .bodyTypeBold-Green {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.175rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: #00b661;
     font-weight: 700;
     letter-spacing: 0.025rem;
@@ -337,8 +344,8 @@ a:active {
 .bodyTypeCaption {
     font-family: 'Nunito', sans-serif;
     font-style: italic;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: #868686;
     font-weight: 400;
     letter-spacing: 0.015rem;
@@ -350,7 +357,7 @@ a:active {
     /*#F2F3F8;*/
     border-radius: 0.5rem;
     color: #4080FF;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .caseStudyQuote-Author {
@@ -359,9 +366,28 @@ a:active {
     line-height: 2rem;
 }
 
+.issuesTable {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.issueCell {
+    padding: 1rem;
+    vertical-align: top;
+    text-align: left;
+}
+
+.issueCellTitle {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #121212;
+    margin-bottom: 0.25rem;
+}
+
 .caseStudyHMW {
     font-family: 'Bitter', serif;
-    font-size: 2.125rem;
+    font-size: 1.5rem;
     font-style: italic;
     color: #7f92ca;
 }
@@ -470,7 +496,7 @@ nav {
     display: flex;
     align-items: center;
     text-align: left;
-    margin: 0 5rem 1.5rem 5rem;
+    margin: 0 1.8rem 1.5rem 1.8rem;
     padding: 1.75rem 0 1.8rem 0;
 }
 
@@ -482,7 +508,7 @@ nav {
 .navLinks a {
     text-decoration: none;
     /* color: #A5A5A5; */
-    color: rgb(162, 162, 182);
+    color: #606060;
     letter-spacing: 0.02em;
 }
 
@@ -501,6 +527,10 @@ a:hover {
 
 .navLinks a:hover {
     color: #444444;
+}
+
+.awardLink:hover {
+    color: rgb(162, 162, 182) !important;
 }
 
 .navLogo {
@@ -534,7 +564,7 @@ a:hover {
 }
 
 .jasperTitle {
-    font-size: 2.25rem;
+    font-size: 1.8rem;
     /* line-height: 4.5rem; */
     font-weight: 300;
     /* letter-spacing: 0.01em; */
@@ -550,7 +580,7 @@ a:hover {
 }
 
 .jasperFacts {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 2.4rem;
     letter-spacing: 0.01em;
     color: #6a6a6b;
@@ -560,6 +590,7 @@ a:hover {
     /* color: #4080FF; */
     /* border-bottom: 0.125rem dotted; */
     border-bottom: 1.25px dashed;
+    border-bottom-color: #a0a0a0;
     color: #121212;
 }
 
@@ -587,6 +618,7 @@ a:hover {
 .headerDrawing {
     width: 40%;
     height: 40%;
+    margin-top: -1.25rem;
 }
 
 /* Projects on Homepage
@@ -648,7 +680,7 @@ a:hover {
 
 .projectTitle {
     /* font-size: 2rem; */
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     /* color: #6a6a6b; */
     color: #444444;
     font-weight: 500;
@@ -664,7 +696,7 @@ a:hover {
 .projectDescription {
     /* font-size: 1.125rem; */
     font-family: 'Nunito', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #6a6a6b;
     letter-spacing: 0.02em;
     line-height: 1.75rem;
@@ -823,14 +855,14 @@ a:hover {
     margin-bottom: 1rem;
     /* background-color: #F2F3F8; */
     padding: 1rem 0.5rem;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.875rem;
+    font-weight: 400;
 }
 
 .persona {
     color: #4080FF;
     box-sizing: border-box;
-    padding: 1rem 2.5rem;
+    padding: 0.5rem 1rem;
     border: 2px solid #4080ff;
 }
 
@@ -842,7 +874,7 @@ a:hover {
 .persona-active {
     color: #ffffff;
     background-color: #4080FF;
-    padding: 1rem 2.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .persona-active:hover {
@@ -869,15 +901,18 @@ a:hover {
 }
 
 .aboutPhotoGallery {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .aboutPhoto1 {
-    height: 518px;
+    /* height: 518px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aboutPhoto2 {
@@ -896,19 +931,33 @@ footer {
 }
 
 .footerContainer {
-    padding: 4rem 0 3rem 0;
-    width: 1140px;
+    margin: 0 1.8rem;
+    padding: 1.75rem 0 1.8rem 0;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 7rem;
     row-gap: -4rem;
+    align-items: center;
 }
 
 .footerLeft {
-    margin-top: -1.5rem;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
+
+.footerLeft h2,
+.footerLeft h3,
+.footerLeft p {
+    margin: 0;
 }
 
 .footerRight {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -919,11 +968,30 @@ footer {
 }
 
 .copyrightMargin {
-    margin-top: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .elsewhereMargin {
     margin-top: 3rem;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+}
+
+.footerLinks a {
+    font-size: 1rem;
+    color: #606060;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.footerLinks a:hover {
+    color: #444444;
 }
 
 .button {
@@ -979,7 +1047,7 @@ footer {
     bottom: 0;
     right: 0;
     margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     height: 4rem;
     width: 4rem;
     background-color: white;
@@ -1024,7 +1092,7 @@ footer {
 
     .jasperTitle {
         /* font-size: 1.5rem; */
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .emojiLarge {
@@ -1038,14 +1106,14 @@ footer {
 
     .jasperFacts {
         /* font-size: 1rem; */
-        font-size: 1.15rem;
+        font-size: 1rem;
         line-height: 2.25rem;
     }
 
     .bodyType,
     .bodyTypeBold {
-        font-size: 1.15rem;
-        line-height: 2rem;
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
 
     .emoji {
@@ -1115,7 +1183,7 @@ footer {
     }
 
     .projectDescription {
-        font-size: 1.125rem;
+        font-size: 1rem;
         line-height: 1.6rem;
     }
 
@@ -1146,11 +1214,15 @@ footer {
     }
 
     .footerRight {
-        margin-top: 2.75rem;
+        margin-top: 0;
+    }
+
+    .footerLinks {
+        justify-content: center;
     }
 
     .emojiMedium {
-        width: 1.5rem;
+        width: 1.25rem;
     }
 
     .socialFooter {
@@ -1232,6 +1304,25 @@ footer {
     .threeColumn {
         display: block;
     }
+
+    .issuesTable {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .issuesTable tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .issueCell {
+        padding: 1.5rem;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .issueCell:last-child {
+        border-bottom: none;
+    }
 }
 
 /* Medium Device media query 
@@ -1275,7 +1366,7 @@ footer {
     }
 
     .projectDescription {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .projectType {
@@ -1290,8 +1381,9 @@ footer {
     }
 
     .footerContainer {
-        width: 690px;
+        width: 100%;
         display: block;
+        margin: 0 1.5rem;
     }
 
     .madeWithLove {
@@ -1303,7 +1395,11 @@ footer {
     }
 
     .footerRight {
-        margin-top: 2.75rem;
+        margin-top: 0;
+    }
+
+    .footerLinks {
+        justify-content: center;
     }
 
     .playdiumPrototype {
@@ -1342,6 +1438,18 @@ footer {
 
     .threeColumn {
         display: block;
+    }
+
+    .issuesTable tr {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .issueCell {
+        padding: 1rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 0.5rem;
     }
 
     /*.quickStatType {
@@ -1388,7 +1496,7 @@ footer {
     }
 
     .footerContainer {
-        width: 1000px;
+        width: 100%;
     }
 
     .playdiumPrototype {
@@ -1430,7 +1538,7 @@ footer {
 
     .navLinks li {
         margin-left: 2rem;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     /* ******************** */
@@ -1464,6 +1572,25 @@ footer {
 
     .navLinks li {
         margin-left: 2rem;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
+
+    .issuesTable tr {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .issueCell {
+        padding: 1.5rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 0.5rem;
+    }
+}
+
+/* Desktop override: make header illustration a fixed 250x250 */
+.headerDrawing {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
 }
