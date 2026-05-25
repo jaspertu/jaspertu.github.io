@@ -105,7 +105,7 @@ html {
 
 .marginTopBottom {
     /* margin: 2.5rem 0 7rem 0; */
-    margin: 3rem 0 2rem 0;
+    margin: 1.5rem 0 0.5rem 0;
 }
 
 /* .spacer {
@@ -181,7 +181,7 @@ a:active {
 }
 
 .marginS--top {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .marginS2--top {
@@ -245,7 +245,7 @@ a:active {
     font-size: 2rem;
     font-weight: 500;
     color: #121212;
-    line-height: 3.25rem;
+    line-height: 2.5rem;
     margin-bottom: 0rem;
 }
 
@@ -253,7 +253,7 @@ a:active {
     font-size: 2rem;
     font-weight: 500;
     color: #F0F0F0;
-    line-height: 4.75rem;
+    line-height: 3.5rem;
 }
 
 .h3-caseStudy {
@@ -351,8 +351,18 @@ a:active {
     letter-spacing: 0.015rem;
 }
 
+.NDA {
+    padding: 0.5rem;
+    background-color: rgb(247, 247, 186);
+    /*#F2F3F8;*/
+    border-radius: 0.5rem;
+    color: #8c6c03;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
 .caseStudyQuote {
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: #cdecff;
     /*#F2F3F8;*/
     border-radius: 0.5rem;
@@ -629,7 +639,7 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-gap: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     background-color: #ffffff;
     padding: 1rem;
     border-radius: 10px;
@@ -750,11 +760,15 @@ a:hover {
     margin-bottom: 2.5rem;
 }
 
+.caseStudyHeader-Brief {
+    text-align: center;
+}
+
 .caseStudyHero {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -782,7 +796,7 @@ a:hover {
 }
 
 .caseStudyDetailsBG {
-    margin-top: 100vh;
+    margin-top: 80vh;
     background-color: #303030;
 }
 
@@ -800,8 +814,8 @@ a:hover {
 }
 
 .caseStudySection {
-    margin-top: 6rem;
-    margin-bottom: 6.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
 }
 
 .caseStudyImg {
@@ -852,7 +866,7 @@ a:hover {
 
 .persona-item {
     margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
     /* background-color: #F2F3F8; */
     padding: 1rem 0.5rem;
     font-size: 0.875rem;
@@ -1088,7 +1102,7 @@ footer {
     }
 
     .marginTopBottom {
-        margin: 1.5rem 0 4rem 0;
+        margin: 1rem 0 2rem 0;
     }
 
     .jasperTitle {
@@ -1316,7 +1330,7 @@ footer {
     }
 
     .issueCell {
-        padding: 1.5rem;
+        padding: 1rem;
         border-bottom: 1px solid #e0e0e0;
     }
 
@@ -1334,11 +1348,15 @@ footer {
     }
 
     .marginTopBottom {
-        margin: 1rem 0 4rem 0;
+        margin: 1rem 0 1rem 0;
     }
 
     .headerDrawing {
         display: none;
+    }
+
+    .projectSingle:hover>.projectCover {
+        transform: scale(1.0);
     }
 
     .projectSingle,
@@ -1442,7 +1460,7 @@ footer {
     .issuesTable tr {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 0.6rem;
     }
 
     .issueCell {
@@ -1465,7 +1483,7 @@ footer {
     }
 
     .marginTopBottom {
-        margin: 2rem 0 5rem 0;
+        margin: 1rem 0 1rem 0;
     }
 
     .headerDrawing {
@@ -1578,11 +1596,11 @@ footer {
     .issuesTable tr {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+        gap: 0.6rem;
     }
 
     .issueCell {
-        padding: 1.5rem;
+        padding: 1rem;
         border: 1px solid #e0e0e0;
         border-radius: 0.5rem;
     }
