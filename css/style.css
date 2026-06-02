@@ -397,7 +397,7 @@ a:active {
     font-weight: 600;
     font-size: 1rem;
     color: #121212;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.1rem;
 }
 
 .caseStudyHMW {
@@ -1355,7 +1355,7 @@ footer {
 
     .issueCell {
         padding: 1rem;
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid #b7b7b7;
     }
 
     .issueCell:last-child {
@@ -1489,7 +1489,7 @@ footer {
 
     .issueCell {
         padding: 1rem;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #b7b7b7;
         border-radius: 0.5rem;
     }
 
@@ -1626,7 +1626,7 @@ footer {
 
     .issueCell {
         padding: 1rem;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #b7b7b7;
         border-radius: 0.5rem;
     }
 }
