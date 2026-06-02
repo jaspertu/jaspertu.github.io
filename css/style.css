@@ -287,7 +287,7 @@ a:active {
 }
 
 .bodyTypeLarge-DM {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1.375rem;
     line-height: 2rem;
     color: #CECECE;
@@ -295,30 +295,30 @@ a:active {
 }
 
 .bodyType {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1rem;
     line-height: 1.6rem;
     /* color: #606060; */
     color: #3e3e3e;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.015rem;
 }
 
 .bodyType-DM {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1rem;
     line-height: 1.6rem;
     color: #CECECE;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.015rem;
 }
 
 .bodyTypeBold {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1rem;
     line-height: 1.6rem;
     color: #121212;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 0.025rem;
     background-color: #ffffdb;
     /*#FFFACD;*/
@@ -334,21 +334,21 @@ a:active {
 }
 
 .bodyTypeBold-Green {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1rem;
     line-height: 1.6rem;
     color: #00b661;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 0.025rem;
 }
 
 .bodyTypeCaption {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-style: italic;
     font-size: 1rem;
     line-height: 1.6rem;
     color: #868686;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.015rem;
 }
 
@@ -364,7 +364,8 @@ a:active {
 
 .caseStudyQuote {
     padding: 0.8rem;
-    background-color: #cdecff;
+    /* background-color: #cdecff; */
+    background-color: #dbeffc;
     /*#F2F3F8;*/
     border-radius: 0.5rem;
     color: #4080FF;
@@ -397,10 +398,13 @@ a:active {
 }
 
 .caseStudyHMW {
-    font-family: 'Bitter', serif;
+    /* font-family: 'Bitter', serif; */
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
     font-size: 1.5rem;
-    font-style: italic;
-    color: #7f92ca;
+    /* font-style: italic; */
+    color: #3d5498;
+    letter-spacing: -0.03em;
 }
 
 .caseStudyHMW-Link {
@@ -718,13 +722,13 @@ a:hover {
 
 .projectDescription {
     /* font-size: 1.125rem; */
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1rem;
     /* color: #6a6a6b; */
     color: #3e3e3e;
     letter-spacing: 0.02em;
     line-height: 1.75rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .projectType {
