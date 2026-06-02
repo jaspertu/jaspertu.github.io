@@ -259,7 +259,7 @@ a:active {
 .h3-caseStudy {
     font-size: 1rem;
     font-weight: 600;
-    line-height: 2rem;
+    line-height: 1.8rem;
     /* letter-spacing: 0.025em; */
     color: #121212;
 }
@@ -268,7 +268,7 @@ a:active {
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 600;
-    line-height: 2rem;
+    line-height: 1.8rem;
     letter-spacing: 0.025em;
     color: #f0f0f0;
 }
