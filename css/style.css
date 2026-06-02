@@ -360,7 +360,7 @@ a:active {
     background-color: rgb(247, 247, 186);
     /*#F2F3F8;*/
     border-radius: 0.5rem;
-    color: #8c6c03;
+    color: #624b00;
     font-size: 0.8rem;
     display: inline-block;
 }
@@ -371,7 +371,7 @@ a:active {
     background-color: #dbeffc;
     /*#F2F3F8;*/
     border-radius: 0.5rem;
-    color: #4080FF;
+    color: #0b44b5;
     font-size: 1rem;
 }
 
@@ -818,12 +818,12 @@ a:hover {
 
 .caseStudyDetailsBG {
     margin-top: 80vh;
-    background-color: #303030;
+    background-color: #222222;
 }
 
 .caseStudyDetails {
     margin-top: 4.5vh;
-    margin-bottom: 5.5rem;
+    margin-bottom: 4.5rem;
     /* 2-column code */
     display: grid;
     grid-template-columns: 60% 30%;
