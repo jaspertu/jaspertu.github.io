@@ -258,7 +258,7 @@ a:active {
 
 .h3-caseStudy {
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 2rem;
     /* letter-spacing: 0.025em; */
     color: #121212;
@@ -298,7 +298,8 @@ a:active {
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     line-height: 1.6rem;
-    color: #606060;
+    /* color: #606060; */
+    color: #3e3e3e;
     font-weight: 400;
     letter-spacing: 0.015rem;
 }
@@ -518,7 +519,8 @@ nav {
 .navLinks a {
     text-decoration: none;
     /* color: #A5A5A5; */
-    color: #606060;
+    /* color: #606060; */
+    color: #3e3e3e;
     letter-spacing: 0.02em;
 }
 
@@ -532,15 +534,19 @@ nav {
 }
 
 a:hover {
-    color: rgb(162, 162, 182);
+    /* color: rgb(162, 162, 182); */
+    color: #4080FF;
 }
 
 .navLinks a:hover {
-    color: #444444;
+    /* color: #444444; */
+    /* color: rgb(162, 162, 182); */
+    color: #4080FF;
 }
 
 .awardLink:hover {
-    color: rgb(162, 162, 182) !important;
+    /* color: rgb(162, 162, 182) !important; */
+    color: #4080FF;
 }
 
 .navLogo {
@@ -581,13 +587,14 @@ a:hover {
     /* letter-spacing: 0.01em; */
     /* color: #444444; */
     /* color: #6a6a6b; */
-    color: #444444;
+    color: #3e3e3e;
     margin-bottom: 1.2rem;
 }
 
 .jasperTitleBold {
     font-weight: 600;
-    color: #444444;
+    /* color: #444444; */
+    color: #3e3e3e;
 }
 
 .jasperFacts {
@@ -645,6 +652,10 @@ a:hover {
     background-color: #ffffff;
     padding: 1rem;
     border-radius: 10px;
+}
+
+.projects:last-child {
+    margin-bottom: 2rem;
 }
 
 .projectSingle:hover {
@@ -709,7 +720,8 @@ a:hover {
     /* font-size: 1.125rem; */
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
-    color: #6a6a6b;
+    /* color: #6a6a6b; */
+    color: #3e3e3e;
     letter-spacing: 0.02em;
     line-height: 1.75rem;
     font-weight: 400;
@@ -980,7 +992,8 @@ footer {
 
 .smallText {
     font-size: 1rem;
-    color: #606060;
+    /* color: #606060; */
+    color: #3e3e3e;
     letter-spacing: 0.02em;
 }
 
@@ -1001,14 +1014,16 @@ footer {
 
 .footerLinks a {
     font-size: 1rem;
-    color: #606060;
+    /* color: #606060; */
+    color: #3e3e3e;
     letter-spacing: 0.02em;
     text-decoration: none;
     transition: 0.4s ease;
 }
 
 .footerLinks a:hover {
-    color: #444444;
+    /* color: #444444; */
+    color: #4080FF;
 }
 
 .button {
