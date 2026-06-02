@@ -225,11 +225,14 @@ a:active {
 }
 
 .title-caseStudy {
-    font-family: 'Caudex', serif;
-    font-weight: 700;
+    /* font-family: 'Caudex', serif; */
+    font-family: "Sora", sans-serif;
+    /* font-weight: 700; */
+    font-weight: 500;
     font-size: 2.5rem;
     color: #121212;
-    line-height: 3.25rem;
+    /* line-height: 3.25rem; */
+    line-height: 2.75rem;
     margin-top: 0.75rem;
     margin-bottom: 0rem;
 }
