@@ -292,39 +292,39 @@ a:active {
 }
 
 .bodyTypeLarge-DM {
-    font-family: "Nunito", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.375rem;
     line-height: 2rem;
     color: #CECECE;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .bodyType {
-    font-family: "Nunito", sans-serif;
-    font-size: 1rem;
-    line-height: 1.6rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.4rem;
     /* color: #606060; */
     color: #3e3e3e;
-    font-weight: 500;
-    letter-spacing: 0.015rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
 }
 
 .bodyType-DM {
-    font-family: "Nunito", sans-serif;
-    font-size: 1rem;
-    line-height: 1.6rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.4rem;
     color: #CECECE;
-    font-weight: 500;
-    letter-spacing: 0.015rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
 }
 
 .bodyTypeBold {
-    font-family: "Nunito", sans-serif;
-    font-size: 1rem;
-    line-height: 1.6rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.4rem;
     color: #121212;
-    font-weight: 800;
-    letter-spacing: 0.025rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
     background-color: #ffffdb;
     /*#FFFACD;*/
     /*#dbf6ff*/
@@ -339,22 +339,22 @@ a:active {
 }
 
 .bodyTypeBold-Green {
-    font-family: "Nunito", sans-serif;
-    font-size: 1rem;
-    line-height: 1.6rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.4rem;
     color: #00b661;
-    font-weight: 800;
-    letter-spacing: 0.025rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
 }
 
 .bodyTypeCaption {
-    font-family: "Nunito", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: italic;
-    font-size: 1rem;
-    line-height: 1.6rem;
+    font-size: 0.95rem;
+    line-height: 1.4rem;
     color: #868686;
-    font-weight: 500;
-    letter-spacing: 0.015rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
 }
 
 .NDA {
@@ -727,13 +727,13 @@ a:hover {
 
 .projectDescription {
     /* font-size: 1.125rem; */
-    font-family: "Nunito", sans-serif;
-    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.95rem;
     /* color: #6a6a6b; */
     color: #3e3e3e;
-    letter-spacing: 0.02em;
-    line-height: 1.75rem;
-    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.4rem;
+    font-weight: 400;
 }
 
 .projectType {
