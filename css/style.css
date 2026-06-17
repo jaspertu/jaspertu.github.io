@@ -229,7 +229,7 @@ a:active {
     font-family: "Sora", sans-serif;
     /* font-weight: 700; */
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #121212;
     /* line-height: 3.25rem; */
     line-height: 2rem;
@@ -239,13 +239,13 @@ a:active {
 
 .subtitle-caseStudy {
     font-size: 1rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
     color: #6a6a6b;
     font-weight: 400;
 }
 
 .h2-caseStudy {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: #121212;
     line-height: 2.5rem;
@@ -253,10 +253,10 @@ a:active {
 }
 
 .h2-caseStudy-DM {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: #F0F0F0;
-    line-height: 3.5rem;
+    line-height: 2.5rem;
 }
 
 .h3-caseStudy {
@@ -501,6 +501,13 @@ a:active {
     grid-gap: 5%;
     align-items: center;
 } */
+
+.twoColumnGIF {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 8%;
+    justify-content: center;
+}
 
 .threeColumn {
     display: grid;
