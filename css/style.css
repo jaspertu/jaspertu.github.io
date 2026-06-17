@@ -229,16 +229,16 @@ a:active {
     font-family: "Sora", sans-serif;
     /* font-weight: 700; */
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #121212;
     /* line-height: 3.25rem; */
-    line-height: 2.75rem;
+    line-height: 2rem;
     margin-top: 0.75rem;
     margin-bottom: 0rem;
 }
 
 .subtitle-caseStudy {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 2.5rem;
     color: #6a6a6b;
     font-weight: 400;
@@ -278,7 +278,7 @@ a:active {
 
 .h4-caseStudy {
     font-weight: 600;
-    font-size: 1.55rem;
+    font-size: 1.08rem;
     color: #121212;
 }
 
@@ -325,7 +325,7 @@ a:active {
     color: #121212;
     font-weight: 600;
     letter-spacing: 0.01em;
-    background-color: #ffffdb;
+    /* background-color: #ffffdb; */
     /*#FFFACD;*/
     /*#dbf6ff*/
     /*light blue*/
@@ -717,6 +717,7 @@ a:hover {
     color: #444444;
     font-weight: 500;
     /* letter-spacing: 0.01em; */
+    line-height: 1.8rem;
 }
 
 .projectSubTitle {
@@ -732,7 +733,7 @@ a:hover {
     /* color: #6a6a6b; */
     color: #3e3e3e;
     letter-spacing: 0.01em;
-    line-height: 1.4rem;
+    line-height: 2rem;
     font-weight: 400;
 }
 
@@ -780,7 +781,7 @@ a:hover {
 
 .caseStudyHeader {
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .caseStudyHeader-Brief {
@@ -800,6 +801,11 @@ a:hover {
 
 .fbHero {
     background-image: url(../img/facebook-rainbow.gif);
+}
+
+.fdsHero {
+    background-image: url(../img/fds/00-FDS-Page-Cover.jpg);
+    size: 80%;
 }
 
 .jiyuAppHero {
@@ -825,7 +831,7 @@ a:hover {
 
 .caseStudyDetails {
     margin-top: 4.5vh;
-    margin-bottom: 4.5rem;
+    margin-bottom: 3.2rem;
     /* 2-column code */
     display: grid;
     grid-template-columns: 60% 30%;

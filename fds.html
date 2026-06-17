@@ -1,0 +1,300 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Facebook Design System — Jasper Tu</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" type="image/png" href="./img/peaceSignEmoji.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/hover.css" rel="stylesheet" media="all">
+
+  <!-- Scripts -->
+  <script src="./js/jquery.min.js.download"></script>
+  <script src="./js/scripts.js.download"></script>
+  <script src="js/main.js"></script>
+
+  <meta name="theme-color" content="#fafafa">
+
+  <!-- Typefaces: DM Sans, Sora, Nunito, Caudex, Noto Sans -->
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- SEO -->
+  <meta name="description" content="Jasper Tu is a product designer at Meta, Facebook.">
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://jaspertu.github.io/"> <!-- Insert link to my website here -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./img/peace.png"> <!-- Insert website preview image here -->
+  <meta property="og:title" content="Jasper Tu | Product Designer">
+  <meta property="og:description" content="Jasper Tu is a product designer at Meta, Facebook.">
+  <meta property="og:url" content="https://jaspertu.github.io/"> <!-- Insert link to my website here -->
+  <meta property="og:site_name" content="Jasper Tu">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@jasper_tu">
+  <meta name="twitter:creator" content="@jasper_tu">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Top nav bar -->
+  <div id="navContainer">
+    <!-- Navigation elements -->
+    <nav>
+      <li><a class="navLogo" href="index.html"><img src="img/Site-Logo.png" alt="JT logo" class="navLogoImg"></a></li>
+      <ul class="navLinks">
+        <li><a class="workNav" id="active" href="index.html">Work</a></li>
+        <li><a class="aboutNav" href="about.html">About</a></li>
+        <li><a class="resumeNav" href="pdf/Jasper_Tu_Resume_2026.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Case study title -->
+  <div class="gridCenterer">
+    <header class="caseStudyHeader container">
+      <h1 class="title-caseStudy">Unifying a fragmented Facebook Design System for 3 billion users</h1>
+      <h2 class="subtitle-caseStudy">Mobile iOS & Android • Shipped 2024</h2>
+      <!-- <h3 class="bodyType">Jasper Tu • 5 min read</h3> -->
+    </header>
+  </div>
+
+  <!--Cover photo-->
+  <div class="fdsHero caseStudyHero"></div>
+
+  <!-- Back to top button -->
+  <div class="topButton topButtonHidden" onclick="window.scrollTo(0, 0)" ;=""></div>
+
+  <!-- Case study content -->
+  <div class="caseStudyContent">
+
+    <!--Case study details (intro) -->
+    <div class="caseStudyDetailsBG">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="caseStudyDetails">
+            <!-- Left side -->
+            <div class="caseStudyDetailsLeft">
+              <h2 class="h2-caseStudy-DM">TL;DR</h2>
+              <p class="bodyType-DM">
+                I led the end-to-end design of 7 new components for 3B+ users in support of the unification effort. This
+                made Facebook consistent, accessible, and ensured designers actually knew how to use the system,
+                creating:<br><br>
+                <span class="bodyTypeLarge-DM">
+                  +$300M in incremental revenue, <br>
+                  7% to 85% design system adoption on the highest-traffic surfaces, <br>
+                  Adoption by 191 teams
+                </span>
+              </p>
+            </div>
+            <!-- Right side -->
+            <div class="caseStudyDetailsRight">
+              <h3 class="h3-caseStudy-DM">Team</h3>
+              <p class="bodyType-DM">7 designers, 21 engineers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--The Challenge-->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <h2 class="h2-caseStudy">The Challenge</h2>
+            </div>
+            <p class="bodyType marginXS--top">
+              In 2023, Facebook App prioritized component unification to reduce technical overhead and improve both user
+              and developer experiences. Fragmentation caused slower developer times from repeat work, complicated and
+              inconsistent user experiences, and fewer positive app recommendations.
+            </p>
+            <img class="caseStudyImg marginS--top" src="./img/fds/01-BP-1.0-Before.jpg" loading="lazy"
+              alt="Blueprint 1.0 before & after unification">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Role -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="mediaCenterer">
+            <h2 class="h2-caseStudy">My Role</h2>
+          </div>
+          <div class="bodyWrapper">
+            <p class="bodyType marginXS--bottom">
+              As the lead product designer for 7 components, I worked through ambiguity and complexity to ship
+              interactive Figma
+              components and variants,
+              usage guidance and principles, documentation and taxonomy, accessibility and component
+              specs.
+            </p>
+            <div class="caseStudyQuote">
+              • Defined component strategy and process<br>
+              • Partnered and aligned on needs with multiple product teams<br>
+              • Collaborated with engineers on spec properties and component build<br>
+              • Owned components long-term (subject-matter expert), evolving them as needed<br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- General Process -->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapperWide">
+            <div class="mediaCenterer">
+              <h2 class="h2-caseStudy">General Process</h2>
+            </div>
+            <img class="caseStudyImg marginXS--top" src="./img/fds/General Process.jpg" loading="lazy"
+              alt="General process components">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Component snapshot-->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <h2 class=" h3-caseStudy">A snapshot of my components</h2>
+            </div>
+            <img class="caseStudyImg marginXS--top" src="./img/fds/02-My-Components.jpg" loading="lazy"
+              alt="My components snapshot">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+    <!--Component Deep Dive: Floating Promotion Card-->
+    <section class="caseStudySection">
+      <div class="gridCenterer">
+        <div class="container">
+          <div class="bodyWrapper">
+            <div class="mediaCenterer">
+              <h3 class="caseStudyHMW">Component Deep Dive</h3>
+              <h2 class="h2-caseStudy">Creating Order from Chaos</h2>
+            </div>
+            <p class="h3-caseStudy marginS--top">
+              Floating Promotion Card is the most prominent action on a page.
+            </p>
+            <p class="bodyType">
+              Visual distinctions were rationalized by interaction behaviour, creating 2 core variants:
+            </p>
+            <br>
+            <p class="bodyType">
+              <span class="bodyTypeBold">Default</span>: Appears immediately. Since it is more prominent on the surface,
+              the controls are limited
+              to focus
+              on the whole card as an action.
+            </p>
+            <br>
+            <p class="bodyType">
+              <span class="bodyTypeBold">On-scroll</span>: Appears upon scroll. The purpose is to highlight key details,
+              so there are more controls available to encourage users to take action.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footerContainer">
+      <div class="footerLeft">
+        <p class="madeWithLove smallText copyrightMargin"><strong>Let's connect!</strong> Designed + coded with <img
+            class="emojiSmall" src="./img/sparklingHeartEmoji.png" loading="lazy" alt="Sparkling Heart"> by
+          me</p>
+      </div>
+
+      <div class="footerRight">
+        <div class="footerLinks">
+          <!--<span class="smallText">tu.jasp@gmail.com</span>-->
+          <a href="mailto:tu.jasp@gmail.com" class="smallText">Contact</a>
+          <a href="https://www.linkedin.com/in/jaspertu/" target="_blank" class="smallText">LinkedIn</a>
+          <a href="pdf/Jasper_Tu_Resume_2026.pdf" target="_blank" class="smallText">Resume</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+
+  <!-- Hide nav on scroll JS -->
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navContainer").style.top = "0";
+      } else {
+        document.getElementById("navContainer").style.top = "-75px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+
+  <!-- Scroll down button JS -->
+  <script>
+    $(function () {
+      $('.downButton').click(function () {
+        $('html, body').animate({ scrollTop: $('section.projects').offset().top }, 'slow');
+        return false;
+      });
+    });
+  </script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <!--Scroll reveal JS-->
+  <script src="./js/scrollreveal.min.js.download"></script>
+  <script>
+    // JavaScript
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.reveal', { duration: 1500, distance: '20px', useDelay: 'once', scale: 1, });
+  </script>
+</body>
+
+</html>
