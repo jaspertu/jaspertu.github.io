@@ -922,6 +922,7 @@ a:hover {
     padding: 1rem 0.5rem;
     font-size: 0.875rem;
     font-weight: 400;
+    list-style-type: none;
 }
 
 .persona {
